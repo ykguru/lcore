@@ -4,7 +4,9 @@
 	"keywords": ["framework", "laravel", "core"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.0.10"
+		"laravel/framework": "4.0.10",
+		"symfony/symfony": "v2.2.1 as 2.3",
+		"filp/whoops": "v1.0.9 as 1.0.7"
 	},
 	"autoload": {
 		"psr-0": {

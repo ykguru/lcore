@@ -11,6 +11,8 @@
 |
 */
 
+use Illuminate\Support\ClassLoader;
+
 ClassLoader::addDirectories(array(
 
 	app_path().'/commands',
