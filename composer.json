@@ -4,7 +4,7 @@
 	"keywords": ["framework", "laravel", "core"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.0.*"
+		"laravel/framework": "4.0.10"
 	},
 	"autoload": {
 		"psr-0": {
