@@ -1,4 +1,9 @@
 <?php
+
+require(__DIR__.'/../vendor/autoload.php');
+new LCore\Bootstrap();
+die;
+
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
