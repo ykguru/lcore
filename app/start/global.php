@@ -12,6 +12,7 @@
 */
 
 use Illuminate\Support\ClassLoader;
+use Illuminate\Support\Facades\Log;
 
 ClassLoader::addDirectories(array(
 
