@@ -3,10 +3,17 @@
 	"description": "The Core of Laravel 4 Projects.",
 	"keywords": ["framework", "laravel", "core"],
 	"license": "MIT",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/propertyguru/event"
+		}
+	],
 	"require": {
 		"laravel/framework": "4.0.10",
 		"symfony/symfony": "v2.2.1 as 2.3",
-		"filp/whoops": "v1.0.9 as 1.0.7"
+		"filp/whoops": "v1.0.9 as 1.0.7",
+		"propertyguru/event": "dev-laravel"
 	},
 	"autoload": {
 		"psr-0": {

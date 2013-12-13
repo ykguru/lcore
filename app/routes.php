@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function()
+Route::get('/propertyguru/lcore', function()
 {
 	return View::make('hello');
 });

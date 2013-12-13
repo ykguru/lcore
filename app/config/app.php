@@ -13,6 +13,8 @@ return array(
 	|
 	*/
 
+	'country' => $host_app = getenv('HOST_APP') ? substr($host_app, -2) : 'sg',
+
 	'debug' => true,
 
 	/*
@@ -113,6 +115,7 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'PropertyGuru\Event\EventServiceProvider',
 
 	),
 
