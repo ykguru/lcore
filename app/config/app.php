@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'country' => $host_app = getenv('HOST_APP') ? substr($host_app, -2) : 'sg',
+	'country' => getenv('HOST_APP') ? substr(getenv('HOST_APP'), -2) : 'sg',
 
 	'debug' => true,
 
@@ -156,7 +156,6 @@ return array(
 		'Crypt'           => 'Illuminate\Support\Facades\Crypt',
 		'DB'              => 'Illuminate\Support\Facades\DB',
 		'Eloquent'        => 'Illuminate\Database\Eloquent\Model',
-		'Event'           => 'Illuminate\Support\Facades\Event',
 		'File'            => 'Illuminate\Support\Facades\File',
 		'Form'            => 'Illuminate\Support\Facades\Form',
 		'Hash'            => 'Illuminate\Support\Facades\Hash',
