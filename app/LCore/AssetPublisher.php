@@ -25,8 +25,7 @@ class AssetPublisher
 		$package_dir = $plugin_manager->getInstallPath($package);
 		$base_dir = dirname(dirname(dirname($package_dir)));
 
-		$script = "<?php\nrequire('vendor/autoload.php');\n\$asset_publisher = new LCore\AssetPublisher();\n\$asset_publisher->publish();";
-		file_put_contents($base_dir . '/lcore.php', $script);
+		copy(dirname(dirname(__DIR__)) . '/lcore.php', $base_dir . '/lcore.php');
 	}
 
 	public function publish()
